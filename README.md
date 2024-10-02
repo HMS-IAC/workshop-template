@@ -88,18 +88,14 @@ git push origin main  # push the template content to your new repository; only f
 1. Update each `conf.py` file in the `source/versions` folder with the name of your workshop and your name.
 
 ```python
-# -- Customizable Project Settings -------------------------------------------
-project = 'workshop-template'
-copyright = '2024, Antoine A. Ruzette'
-author = 'Antoine A. Ruzette'
-release = '0.0.1'
-html_title = 'Template for IAC workshops'
+# =============================================================================
+#                Customizable Information for New Users
+# =============================================================================
 
-# URLs
-iac_url = "https://iac.hms.harvard.edu/"
-github_url = "https://github.com/HMS-IAC"
-repository_name = os.getenv('GITHUB_REPOSITORY', 'hms-iac/workshop-template').split('/')[-1]
-base_url = f"/{repository_name}/" if repository_name else "/"
+# -- Project Information -----------------------------------------------------
+project = 'workshop-template'  # Change this to the name of your project
+author = 'Antoine A. Ruzette, ... '  # Set the author's name
+html_title = 'Workshop Template'  # The title of the website
 ```
 
 ### 4. Add your content <a name="4-add-your-content"></a>

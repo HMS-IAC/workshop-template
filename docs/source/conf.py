@@ -6,17 +6,17 @@ import os
 
 # -- Project Information -----------------------------------------------------
 project = 'workshop-template'  # Change this to the name of your project
-author = 'Antoine A. Ruzette'  # Set the author's name
-html_title = 'Fiji workshop'  # The title of the website
+author = 'Antoine A. Ruzette, ... '  # Set the author's name
+html_title = 'Workshop Template'  # The title of the website
+
+# =============================================================================
+#              End of Customizable Information for New Users
+# =============================================================================
 
 # -- Repository and URL Configuration ----------------------------------------
 # no need to change if your repository is hosted on the IAC-HMS GitHub
 iac_url = "https://iac.hms.harvard.edu/"  # Institution website URL
 github_url = "https://github.com/HMS-IAC"  # GitHub organization URL
-
-# =============================================================================
-#              End of Customizable Information for New Users
-# =============================================================================
 
 # Copyright information
 copyright = '2024, Antoine A. Ruzette'  # Update copyright information
