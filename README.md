@@ -62,6 +62,7 @@ First, create a new repository on the IAC-HMS github to host your workshop mater
 
 ```bash
 git remote add source https://github.com/HMS-IAC/workshop-template.git
+git fetch source
 git merge source/main --allow-unrelated-histories
 git add .  # to resolve conflicts e.g. if you had an existing README.md
 git push origin main  # push the template content to your new repository
