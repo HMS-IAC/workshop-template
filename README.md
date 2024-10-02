@@ -124,3 +124,11 @@ git push origin gh-pages
 ### 7. Enable GitHub Pages
 
 Go to the settings of your repository, and under the GitHub Pages section, select the `gh-pages` branch as the source for your GitHub Pages.
+
+### 8. Common warnings and errors
+
+- **`make: sphinx-build: Command not found`**: Make sure you have installed the necessary dependencies.
+- **`WARNING: html_static_path entry '_static' does not exist`**: It's alright. The `_static` folder is version-specific and will be created when you add your slides.
+- ** `WARNING: document isn't included in any toctree`**: This warning is displayed when a reST file is not included in the `index.rst` file. You can safely ignore it if you don't want to include the file in the table of contents.
+- ** `WARNING: toctree contains reference to nonexisting document`**: This warning is displayed when a file is included in the `index.rst` file but does not exist. Make sure the file is correctly named and located in the right folder.
+- ** `WARNING: unsupported theme option 'theme_switcher' given`**: This warning is displayed when the `theme_switcher` option is not supported by the theme. It will still display You can safely ignore it.

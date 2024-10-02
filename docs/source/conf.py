@@ -45,7 +45,6 @@ html_theme_options = {
         'image_dark': os.path.join('_static', 'iac-hms-logo-dark.png'),
     },
     'navbar_end': ['navbar-icon-links', 'theme-switcher'],
-    'theme_switcher': True,
     'icon_links': [
         {
             "name": "IAC",
