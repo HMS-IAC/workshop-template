@@ -89,13 +89,20 @@ git push origin main  # push the template content to your new repository; only f
 
 ```python
 # =============================================================================
-#                Customizable Information for New Users
+#                           Customizable Information
 # =============================================================================
 
 # -- Project Information -----------------------------------------------------
 project = 'workshop-template'  # Change this to the name of your project
 author = 'Antoine A. Ruzette, ... '  # Set the author's name
 html_title = 'Workshop Template'  # The title of the website
+
+# =============================================================================
+#                    Configuration Settings - Do Not Change
+# =============================================================================
+
+...
+
 ```
 
 ### 4. Add your content <a name="4-add-your-content"></a>

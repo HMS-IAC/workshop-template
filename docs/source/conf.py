@@ -1,7 +1,7 @@
 import os
 
 # =============================================================================
-#                Customizable Information for New Users
+#                           Customizable Information
 # =============================================================================
 
 # -- Project Information -----------------------------------------------------
@@ -10,7 +10,7 @@ author = 'Antoine A. Ruzette, ... '  # Set the author's name
 html_title = 'Workshop Template'  # The title of the website
 
 # =============================================================================
-#              End of Customizable Information for New Users
+#                    Configuration Settings - Do Not Change
 # =============================================================================
 
 # -- Repository and URL Configuration ----------------------------------------
