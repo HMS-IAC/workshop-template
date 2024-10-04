@@ -16,7 +16,8 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
    5. [Build the documentation](#5-build-the-documentation)
    6. [Publish the documentation](#6-publish-the-documentation)
    7. [Enable GitHub Pages](#7-enable-github-pages)
-   8. [Common warnings and errors](#8-common-warnings-and-errors)
+4. [Github workflows](#8-github-workflows)
+5. [Common warnings and errors](#9-common-warnings-and-errors)
 
 
 ## Workshop Materials Template <a name="workshop-materials-template"></a>
@@ -144,7 +145,11 @@ git push origin gh-pages
 
 Go to the settings of your repository, and under the GitHub Pages section, select the `gh-pages` branch as the source for your GitHub Pages.
 
-### 8. Common warnings and errors <a name="8-common-warnings-and-errors"></a>
+## Automating build/publish to gh-pages with workflows <a name="8-github-workflows"></a>
+
+Everything from [build](#5-build-the-documentation) to [publish](#7-enable-github-pages) can be automated using GitHub workflows. The repository contains a `.github/workflows` folder with a workflow that builds the documentation and publishes it to the `gh-pages` branch. The workflow is triggered on push events to the main branch, only if changes to the `docs` folder is detected.
+
+## Common warnings and errors <a name="9-common-warnings-and-errors"></a>
 
 - **`make: sphinx-build: Command not found`**: Make sure you have installed the necessary dependencies.
 - **`WARNING: html_static_path entry '_static' does not exist`**: It's alright. The `_static` folder is version-specific and will be created when you add your slides.
